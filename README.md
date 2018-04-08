@@ -1,3 +1,6 @@
 # NLTKproj
 In this NLTK project, I created a python module that is intended to determine the characters in a book, rank them in order of most important to least important, and display the top 25 characters from the book in a network graph. Characters are represented by nodes, and edges represent characters that are associated with each other. I decided to pair nodes with each other when two characters appear together in the same sentence. Additionally, the size of the node is correlated with the ranking of the character. Thus, the bigger the node, the higher the rank of the character. 
 The network graph illustrates how the most important characters have the most number of edges connected to them. Some characters have no edges connected to them, which suggests that they are less significant characters. Some graphs depict clusters of characters; this illustrates how some characters are associated together in groups in the given book. 
+
+
+In this repository, the python module is in the file "FinalNLTKProj.py" and the file to test this in the file "testNLTKmodule.py." The text files included are books that can be used in the testNLTKmodule file to test the program. Additionally, I have included images of 3 different graph to demonstrate the character visualization. 
